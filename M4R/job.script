@@ -1,0 +1,7 @@
+#!/bin/bash
+#PBS -N Matlab_Job
+#PBS -m bea
+#PBS -q matlabpar
+
+cd ${HOME}/homedir/MATLAB/M4R
+/usr/local/bin/matlab -r MatlabServerScript
